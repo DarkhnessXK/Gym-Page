@@ -1,0 +1,77 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-class{
+    background-image: url(../images/gigabackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 8vh;
+    font-weight: bold;
+    
+}
+
+.title{
+    padding-right: 3vh;
+    letter-spacing: 2vh;
+}
+
+.color{
+    color: rgb(77, 3, 3);
+}
+
+#sec-trainers{
+    background-color: rgb(182, 182, 182);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.trainer-card{
+    align-items: center;
+    padding: 30px;
+}
+
+.read-more{
+    text-decoration: none;
+    padding: 2vh;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.card-image{
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.trainer-p{
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 6vh;
+}
+.description-p{
+    width: 30vw;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
